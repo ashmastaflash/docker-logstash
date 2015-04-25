@@ -3,7 +3,7 @@ MAINTAINER Ash Wilson <ash.d.wilson@gmail.com>
 # Based on P. Barrett Little's work
 
 # Install wget
-RUN apt-get update && apt-get install -y wget && apt-get clean
+RUN apt-get update && apt-get install -y wget openssl && apt-get clean
 
 # Download version 1.4.2 of logstash
 RUN cd /tmp && \

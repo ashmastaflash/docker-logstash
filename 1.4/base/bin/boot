@@ -29,9 +29,13 @@ function main() {
 
     forwarder_create_ssl_dir
 
-    forwarder_download_key
+    forwarder_create_key_and_csr
 
-    forwarder_download_cert
+    forwarder_create_cert
+
+    #forwarder_download_key
+
+    #forwarder_download_cert
 
     # Fire up logstash!
     #
