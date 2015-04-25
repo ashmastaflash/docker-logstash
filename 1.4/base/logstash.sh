@@ -9,7 +9,7 @@ set -e -o pipefail
 # If you don't provide a value for the LOGSTASH_CONFIG_URL env
 # var, your install will default to our very basic logstash.conf file.
 #
-LOGSTASH_DEFAULT_CONFIG_URL='https://gist.githubusercontent.com/pblittle/8778567/raw/logstash.conf'
+LOGSTASH_DEFAULT_CONFIG_URL='https://gist.githubusercontent.com/ashmastaflash/fd83e5d87b337889aaf4/raw/ab02152ac1f271d05fd25f527c7456985f592f1a/logstash.conf'
 LOGSTASH_CONFIG_URL=${LOGSTASH_CONFIG_URL:-${LOGSTASH_DEFAULT_CONFIG_URL}}
 
 LOGSTASH_SRC_DIR='/opt/logstash'
