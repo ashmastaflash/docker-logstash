@@ -2,6 +2,9 @@ FROM ashmastaflash/openjdk
 MAINTAINER Ash Wilson <ash.d.wilson@gmail.com>
 # Based on P. Barrett Little's work
 
+# Install wget
+RUN apt-get update && apt-get install -y wget && apt-get clean
+
 # Download version 1.4.2 of logstash
 RUN cd /tmp && \
     wget https://download.elasticsearch.org/logstash/logstash/logstash-1.4.2.tar.gz && \
