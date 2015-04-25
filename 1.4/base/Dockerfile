@@ -1,5 +1,6 @@
-FROM java:7-jre
-MAINTAINER P. Barrett Little <barrett@barrettlittle.com>
+FROM ashmastaflash/openjdk
+MAINTAINER Ash Wilson <ash.d.wilson@gmail.com>
+# Based on P. Barrett Little's work
 
 # Download version 1.4.2 of logstash
 RUN cd /tmp && \
